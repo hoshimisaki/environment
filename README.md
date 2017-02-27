@@ -5,7 +5,14 @@
 
   http://qiita.com/ykawakami/items/4bae371932110b2e25e3
   
-
+  Ubuntuとのクリップボード共有設定  
+  1:ゲストOSを選択 
+  2:[設定]→[一般]をクリックし、順次以下を選択 
+  3:高度 
+  4:クリップボードの共有 
+  5:双方向 
+  
+  
 - Githubにsshでgitコマンドを叩くための準備
 
   http://chie.hatenablog.com/entry/2012/04/24/011052
