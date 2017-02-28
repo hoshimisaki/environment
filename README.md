@@ -42,7 +42,18 @@
 - ブラウザでログイン時のパスワードと、各環境からのssh実行時のパスワードは異なる。ややこしい
 
 
+- AWS接続のための準備  
+  
+    $ sudo -E apt-get install python-setuptools  
+    $ sudo -E apt-get install python-pip  
+    $ sudo su -  
+    # pip install awscli  
+    # exit  
+    $ aws configure  
 
+使用するAWSアカウントの
+AccessKey、
+SecretAccessKeyなどを設定
   
 - 入れておくアプリ
   
