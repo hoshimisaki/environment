@@ -47,9 +47,15 @@
     `# exit`  
     `$ aws configure`  
     
-使用するAWSアカウントの
-AccessKey、
-SecretAccessKeyなどを設定
+使用するAWSアカウントの  
+AccessKey、SecretAccessKeyなどを設定  
+
+    `$ aws configure``  
+    `AWS Access Key ID [None]: credential.csv参照`  
+    `AWS Secret Access Key [None]: credential.csv参照`  
+    `Default region name [None]: us-west-2(AWSのIAMを開き、URLにresion=と書いてあるものを参照)`  
+    `Default output format [None]: json`  
+ 
   
 - 入れておくアプリ  
 
