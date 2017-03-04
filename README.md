@@ -12,14 +12,14 @@
   4:クリップボードの共有 
   5:双方向 
   
-ホストOSからゲストOSへsshで接続する設定
+ホストOSからゲストOSへsshで接続する設定  
 ■ゲストOS  
     `$ sudo apt-ge install openssh-server`  
     `$ ps -ef | grep ssh`
 
 
-■ホストOS
-  $ ssh 127.0.0.1 -p 3333 -l ユーザ名
+■ホストOS  
+    `$ ssh 127.0.0.1 -p 3333 -l ユーザ名`  
 
 ■VM設定(ゲストOS停止状態で実施)
   1:ゲストOSを選択
@@ -55,12 +55,12 @@ AccessKey、
 SecretAccessKeyなどを設定
   
 - 入れておくアプリ  
-  
+
   サクラエディタ  
   WinMerge  
   WinSCP  
-  
+
 - 作っておくもの  
-  
+
   ポモドーロxlsx  
   日付作成ディレクトリ  
