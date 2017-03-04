@@ -13,9 +13,9 @@
   5:双方向 
   
 ホストOSからゲストOSへsshで接続する設定
-■ゲストOS
-  $ sudo apt-ge install openssh-server
-  $ ps -ef | grep ssh
+■ゲストOS  
+    `$ sudo apt-ge install openssh-server`  
+    `$ ps -ef | grep ssh`
 
 
 ■ホストOS
@@ -43,25 +43,24 @@
 
 
 - AWS接続のための準備  
-  
-    $ sudo -E apt-get install python-setuptools  
-    $ sudo -E apt-get install python-pip  
-    $ sudo su -  
-    # pip install awscli  
-    # exit  
-    $ aws configure  
-
+    `$ sudo -E apt-get install python-setuptools`  
+    `$ sudo -E apt-get install python-pip`  
+    `$ sudo su -`  
+    `# pip install awscli`  
+    `# exit`  
+    `$ aws configure`  
+    
 使用するAWSアカウントの
 AccessKey、
 SecretAccessKeyなどを設定
   
-- 入れておくアプリ
+- 入れておくアプリ  
   
-  サクラエディタ
-  WinMerge
-  WinSCP
+  サクラエディタ  
+  WinMerge  
+  WinSCP  
   
-- 作っておくもの
+- 作っておくもの  
   
-  ポモドーロxlsx
-  日付作成ディレクトリ
+  ポモドーロxlsx  
+  日付作成ディレクトリ  
