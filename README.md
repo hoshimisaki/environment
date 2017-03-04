@@ -15,12 +15,9 @@
 - ホストOSからゲストOSへsshで接続する設定  
 ■ゲストOS  
     `$ sudo apt-ge install openssh-server`  
-    `$ ps -ef | grep ssh`
-
-
+    `$ ps -ef | grep ssh`  
 ■ホストOS  
     `$ ssh 127.0.0.1 -p 3333 -l ユーザ名`  
-
 ■VM設定(ゲストOS停止状態で実施)  
   1.ゲストOSを選択  
   2.[設定]→[ネットワーク]をクリックし、順次以下を選択  
